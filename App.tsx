@@ -1,3 +1,5 @@
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import {
   SafeAreaView,
@@ -7,17 +9,28 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import {Welcome} from './src/screens/Welcome';
+import {HeaderNavigator} from './src/components/HeaderNavigator';
+import {SignIn} from './src/screens/SignIn';
+
+const Stack = createNativeStackNavigator();
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <View>
-          <Text>Hello World working</Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="WELCOME">
+        <Stack.Screen
+          name="WELCOME"
+          component={Welcome}
+          options={{header: () => null}}
+        />
+        <Stack.Screen
+          name="SIGN_IN"
+          component={SignIn}
+          options={{header: () => null}}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

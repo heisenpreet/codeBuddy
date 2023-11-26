@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ibankeyApp.app"
-               BlueprintName = "ibankeyApp"
-               ReferencedContainer = "container:ibankeyApp.xcodeproj">
+               BuildableName = "codebuddy.app"
+               BlueprintName = "codebuddy"
+               ReferencedContainer = "container:codebuddy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ibankeyAppTests.xctest"
-               BlueprintName = "ibankeyAppTests"
-               ReferencedContainer = "container:ibankeyApp.xcodeproj">
+               BuildableName = "codebuddyTests.xctest"
+               BlueprintName = "codebuddyTests"
+               ReferencedContainer = "container:codebuddy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ibankeyApp.app"
-            BlueprintName = "ibankeyApp"
-            ReferencedContainer = "container:ibankeyApp.xcodeproj">
+            BuildableName = "codebuddy.app"
+            BlueprintName = "codebuddy"
+            ReferencedContainer = "container:codebuddy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ibankeyApp.app"
-            BlueprintName = "ibankeyApp"
-            ReferencedContainer = "container:ibankeyApp.xcodeproj">
+            BuildableName = "codebuddy.app"
+            BlueprintName = "codebuddy"
+            ReferencedContainer = "container:codebuddy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
